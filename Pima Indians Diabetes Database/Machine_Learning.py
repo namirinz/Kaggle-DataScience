@@ -1,3 +1,5 @@
+# LINK https://www.kaggle.com/uciml/pima-indians-diabetes-database
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
