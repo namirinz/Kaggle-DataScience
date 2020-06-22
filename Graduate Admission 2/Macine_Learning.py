@@ -16,7 +16,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import r2_score,mean_squared_error,mean_absolute_error
 
-df = pd.read_csv('/Admission_Predict_Ver1.1.csv')
+df = pd.read_csv('datasets/Admission_Predict_Ver1.1.csv')
 df['Chance of Admit'] = df['Chance of Admit ']
 
 y = df['Chance of Admit'].values
